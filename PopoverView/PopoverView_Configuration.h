@@ -14,7 +14,7 @@
 #define kArrowHeight 12.f
 
 //padding within the box for the contentView
-#define kBoxPadding 10.f
+#define kBoxPadding 8.f
 
 //control point offset for rounding corners of the main popover box
 #define kCPOffset 1.8f
@@ -53,7 +53,7 @@
 // DIVIDERS BETWEEN VIEWS
 
 //Bool that turns off/on the dividers
-#define kShowDividersBetweenViews NO
+#define kShowDividersBetweenViews YES
 
 //color for the divider fill
 #define kDividerColor [UIColor colorWithRed:0.329 green:0.341 blue:0.353 alpha:0.15f]
@@ -83,7 +83,7 @@
 // FONTS
 
 //normal text font
-#define kTextFont [UIFont fontWithName:@"HelveticaNeue" size:16.f]
+#define kTextFont [UIFont fontWithName:@"HelveticaNeue" size:11.0f]
 
 //normal text color
 #define kTextColor [UIColor colorWithRed:0.329 green:0.341 blue:0.353 alpha:1]
@@ -94,7 +94,7 @@
 #define kTextAlignment UITextAlignmentCenter
 
 //title font
-#define kTitleFont [UIFont fontWithName:@"HelveticaNeue-Bold" size:16.f]
+#define kTitleFont [UIFont fontWithName:@"HelveticaNeue-Bold" size:13.0f]
 
 //title text color
 #define kTitleColor [UIColor colorWithRed:0.329 green:0.341 blue:0.353 alpha:1]
